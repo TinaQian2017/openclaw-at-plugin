@@ -27,7 +27,7 @@ This lets you give the agent "live" context from specific points in your convers
 ## How It Works
 
 - **@ Button** — appears on hover over every chat message
-- **Mark / Unmark** — click @ to toggle a message in/out of context
+- **Mark / Unmark** — click @ to toggle a message in/out of context (first click to select and second click to unselect)
 - **Right Panel** — shows all currently marked messages, click "Clear All Marks" to reset
 - **Auto-Inject** — on next send, all marked context is appended to your message automatically via WebSocket interception
 
@@ -159,7 +159,7 @@ Agent 的原始回复
 ## 工作原理
 
 - **@ 按钮** — 鼠标悬停于任意消息时出现
-- **标记 / 取消标记** — 点击 @ 切换消息的选中状态
+- **标记 / 取消标记** — 点击 @ 切换消息的选中状态 (点击一次标记，点击第二次取消标记）
 - **右侧面板** — 显示所有已标记的消息，点击 "Clear All Marks" 可重置
 - **自动注入** — 发送下一条消息时，所有已标记的上下文会通过 WebSocket 拦截自动追加到消息中
 
